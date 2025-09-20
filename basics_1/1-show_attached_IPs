@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# This script displays all active IPv4 addresses on the machine
+# Ce script affiche toutes les adresses IP IPv4 actives sur la machine.
 
-# Use the ifconfig and grep to filter out IPv4 addresses
-ifconfig | grep -w "inet" | awk '{print $2}'
+# Utilisation de `ifconfig` pour lister les interfaces réseau et de `grep` pour extraire les adresses IPv4
+ifconfig | grep 'inet ' | awk '{print $2}'
