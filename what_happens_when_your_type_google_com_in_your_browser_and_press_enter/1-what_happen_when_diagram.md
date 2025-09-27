@@ -1,14 +1,1 @@
-
-```mermaid
-flowchart LR
-    A[Client (Browser)] -->|DNS query| B[DNS Server]
-    B -->|Returns IP Address| C[Firewall / NAT]
-    C --> D[Load Balancer]
-
-    D --> E[Web Server<br/>(HTTPS - port 443)]
-    E -->|TLS termination<br/>Processes request| F[Application Server<br/>(Business Logic)]
-    F -->|Queries| G[(Database)]
-    G -->|Returns data| F
-    F -->|HTML page| E
-    E --> D
-    D --> A
+![Uploading 71a7b648-7e60-4f78-bd85-b38caf2878d7.png…]()
