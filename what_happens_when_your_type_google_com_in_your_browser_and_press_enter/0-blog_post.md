@@ -59,15 +59,4 @@ When you type `holbertonschool.com`, the browser queries the **DNS** to get the 
 
 ---
 
-## The Journey Summarized
-1. You type the website → the browser queries DNS.  
-2. DNS returns the server’s IP.  
-3. A connection is established via TCP/IP.  
-4. The request passes through the firewall.  
-5. The connection is encrypted with HTTPS/SSL.  
-6. The load balancer distributes the request to a server.  
-7. The web server serves static content or forwards to the application server.  
-8. The application server queries the database if needed.  
-9. The browser receives and renders the final page.  
 
----
